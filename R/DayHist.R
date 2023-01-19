@@ -20,7 +20,7 @@
 #' @importFrom sp SpatialPoints
 #' @importFrom maptools sunriset
 
-DayHist=function (x, hist.zoom=6, hist.col="tomato", daynight.color=T, date="03/20/2021",lon=-122.6396394,lat=48.1639127,day.col="lightgoldenrodyellow",night.col="lightcyan") {
+DayHist=function (x, hist.zoom=6, hist.col="tomato", daynight.color=T, date="03/20/2021",lon=-122.6396394,lat=48.1639127,day.col="lightgoldenrodyellow",night.col="lightskyblue3") {
   hour.dec=hour(x)+
   minute(x)/60
   conv.rad=(hour.dec/24)*2*pi #converting hour of day to radians
